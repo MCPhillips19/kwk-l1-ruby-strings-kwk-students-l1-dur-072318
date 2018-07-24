@@ -1,3 +1,8 @@
 # Code your prompts here!
 
-# Try starting out with puts'ing a string.
+def say_hello(your_name, my_name = "marnie")
+  puts "Hello #{your_name}, I'm #{my_name}!!"
+end
+say_hello("Trinity")
+
+
